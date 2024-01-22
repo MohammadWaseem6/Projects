@@ -1,0 +1,36 @@
+.meme-gen {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}
+
+.meme-gen img {
+    height: 450px;
+    object-fit: cover;
+}
+
+.generator {
+    width: 300px;
+    height: 50px;
+    border-radius: 40px;
+    background-color: cadetblue;
+    color: white;
+    border: 2px solid purple;
+}
+
+.generator:hover {
+    background-color: blueviolet;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.memeImage {
+    width: 450px;
+    height: auto;
+    margin: auto;
+    display: block; /* Added for proper centering */
+}
+
+.meme-author {
+    font-size: 20px; /* Added font-size property */
+    text-align: center;
+}
